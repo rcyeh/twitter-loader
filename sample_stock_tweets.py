@@ -19,8 +19,7 @@ twitter_stream = twitter.TwitterStream(auth=twitter.OAuth(
             keycodes["consumer_secret"]))
 iterator = twitter_stream.statuses.sample()
 
-stocksymbol = re.compile("\s[A-Z][A-Z]|\s\$[A-Z][A-Z]") # too broad
-stocksymbol = re.compile("\$[A-Z]")
+stocksymbol = re.compile("(^|\s)\$?[A-Z][A-Z]")
 
 i = 0
 j = 0
