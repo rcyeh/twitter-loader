@@ -25,6 +25,7 @@ i = 0
 j = 0
 k = 0
 f = []
+divisor = 10
 print(str(datetime.now()), file=sys.stderr)
 for tweet in iterator:
     i += 1
@@ -35,10 +36,16 @@ for tweet in iterator:
         j += 1
         if i >= 2000000000:
             break
-        if 0 == i % 10000:
+        if 0 == i % divisor:
             print(str(datetime.now()) + " msgs " + str(i) +
                     " tweets " + str(j) +
                     " matches " + str(k), file=sys.stderr)
+            if divisor < 1000:
+                divisor *= 10
+            elif divisor < 128000:
+                divisor *= 2
+            else:
+                divisor = 200000
     except KeyError:
         pass
 iterator.close()
