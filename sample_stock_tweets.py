@@ -40,7 +40,9 @@ for tweet in iterator:
         if 0 == i % divisor:
             print(str(datetime.now()) + " msgs " + str(i) +
                     " tweets " + str(j) +
-                    " matches " + str(k), file=sys.stderr)
+                    " matches " + str(k) +
+                    " ratio " + str(float(k)/j) +
+                    " poisson error " + str(float(k)**0.5/j), file=sys.stderr)
             if divisor < 1000:
                 divisor *= 10
             elif divisor < 128000:
