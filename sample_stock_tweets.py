@@ -28,7 +28,7 @@ for tweet in iterator:
         #if tweet["lang"] == "en" and stocksymbol.search(tweet["text"]):
         if len(tweet["entities"]["symbols"]) > 0:
             k += 1
-            print(str(tweet))
+            print(json.dumps(tweet))
         j += 1
         if i >= 10000000:
             break
