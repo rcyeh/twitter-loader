@@ -1,7 +1,19 @@
 
+outdir=/mnt/NoBackup/twitter
+prefix=CCtweets_
+
 i=0
+# look for existing files and set index to first unused
+for f in ${outdir}/${prefix}*; do
+  j=$(echo ${f/${outdir}\/${prefix}/} | sed -e "s/\..*$//")
+  if (( ${i} < ${j} )); then
+    i=${j}
+  fi
+done
+
 while true; do
-  echo ${i}
-  python ./sample_stock_tweets.py >> /mnt/NoBackup/twitter/CCtweets_${i}.json
-  i=$[ $i + 1 ]
+  i=$(( ${i} + 1 ))
+  echo "Writing to ${outdir}/${prefix}${i}.json"
+  python ./sample_stock_tweets.py 2>&1 > ${outdir}/${prefix}${i}.json | tee -a ${outdir}/${prefix}${i}.stderr
+  sleep 30
 done
