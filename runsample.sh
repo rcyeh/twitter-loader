@@ -1,6 +1,9 @@
 
+cd $(dirname ${0})
+mydir=$(/bin/pwd)
+
 outdir=/mnt/NoBackup/twitter
-prefix=CCtweets_
+prefix=*tweets_
 
 i=0
 # look for existing files and set index to first unused
@@ -11,9 +14,10 @@ for f in ${outdir}/${prefix}*; do
   fi
 done
 
+cd ${outdir}
 while true; do
   i=$(( ${i} + 1 ))
   echo "Writing to ${outdir}/${prefix}${i}.json"
-  python ./sample_stock_tweets.py 2>&1 > ${outdir}/${prefix}${i}.json | tee -a ${outdir}/${prefix}${i}.stderr
+  python ${mydir}/sample_stock_tweets.py ${i}
   sleep 30
 done
