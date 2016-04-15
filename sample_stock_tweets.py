@@ -43,7 +43,7 @@ def main(arglist):
                         k += 1
                         print(jt, file=entity_tweets)
                     j += 1
-                    if i >= 10000000:
+                    if i >= 1000000:
                         break
                     if 0 == i % divisor:
                         print(str(datetime.now()) + " msgs " + str(i) +
