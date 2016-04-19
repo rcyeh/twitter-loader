@@ -8,6 +8,7 @@ if [ ! -d /mnt/NoBackup/twitter ]; then
   mkdir -p ${outdir}
 fi
 prefix=*tweets_
+s3bucket="s3://rcy-twitter/raw/home/"
 
 i=0
 # look for existing files and set index to first unused
@@ -23,5 +24,8 @@ while true; do
   i=$(( ${i} + 1 ))
   echo "Writing to ${outdir}/${prefix}${i}.json"
   python ${mydir}/sample_stock_tweets.py ${i}
+  for p in entity sample; do
+    aws s3 cp ${p}_tweets_${i}.json.gz ${s3bucket} --storage-class REDUCED_REDUNDANCY
+  done &
   sleep 30
 done
