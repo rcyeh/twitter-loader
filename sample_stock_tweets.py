@@ -43,22 +43,20 @@ def main(arglist):
                         k += 1
                         print(jt, file=entity_tweets)
                     j += 1
-                    if i >= 1000000:
-                        break
-                    if 0 == i % divisor:
-                        print(str(datetime.now()) + " msgs " + str(i) +
-                                " tweets " + str(j) +
-                                " matches " + str(k) +
-                                " ratio " + str(1e-6 * int(1e6 * float(k)/j)) +
-                                " poisson error " + str(1e-6 * int(1e6 * float(k)**0.5/j)), file=sys.stderr)
-                        if divisor < 1000:
-                            divisor *= 10
-                        elif divisor < 128000:
-                            divisor *= 2
-                        else:
-                            divisor = 200000
                 except KeyError:
                     pass
+                if i >= 1000000:
+                    break
+                if 0 == i % divisor:
+                    print(str(datetime.now()) + " msgs " + str(i) +
+                            " tweets " + str(j) +
+                            " matches " + str(k) +
+                            " ratio " + str(1e-6 * int(1e6 * float(k)/j)) +
+                            " poisson error " + str(1e-6 * int(1e6 * float(k)**0.5/j)), file=sys.stderr)
+                    if divisor < 10000:
+                        divisor *= 10
+                    else:
+                        divisor = 200000
             iterator.close()
 
 if __name__ == "__main__":

@@ -3,6 +3,10 @@ cd $(dirname ${0})
 mydir=$(/bin/pwd)
 
 outdir=/mnt/NoBackup/twitter
+if [ ! -d /mnt/NoBackup/twitter ]; then
+  outdir=${HOME}/twitter
+  mkdir -p ${outdir}
+fi
 prefix=*tweets_
 
 i=0
