@@ -32,7 +32,7 @@ def main(arglist):
     divisor = 10
     print(str(datetime.now()), file=sys.stderr)
     with gzip.open("sample_tweets_" + filenum + ".json.gz", "at") as sample_tweets:
-        with gzip.open("entity_tweets_" + filenum + ".json.gz", "at") as entity_tweets:
+        # with gzip.open("entity_tweets_" + filenum + ".json.gz", "at") as entity_tweets:
             for tweet in iterator:
                 i += 1
                 jt = json.dumps(tweet)
@@ -41,7 +41,7 @@ def main(arglist):
                     #if tweet["lang"] == "en" and stocksymbol.search(tweet["text"]):
                     if len(tweet["entities"]["symbols"]) > 0:
                         k += 1
-                        print(jt, file=entity_tweets)
+                        # print(jt, file=entity_tweets)
                     j += 1
                 except KeyError:
                     pass
