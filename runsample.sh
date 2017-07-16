@@ -25,7 +25,7 @@ while true; do
   echo "Writing to ${outdir}/${prefix}${i}.json.gz"
   python ${mydir}/sample_stock_tweets.py ${i}
   for p in sample; do
-    aws s3 cp ${p}_tweets_${i}.json.gz ${s3bucket} --storage-class REDUCED_REDUNDANCY && rm -f ${p}_tweets_${i}.json.gz && touch uploaded_tweets_${i}.json.gz
+    aws s3 cp ${p}_tweets_${i}.json.gz ${s3bucket} --storage-class STANDARD_IA && rm -f ${p}_tweets_${i}.json.gz && touch uploaded_tweets_${i}.json.gz
   done &
   sleep 0.1
 done
