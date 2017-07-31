@@ -1,0 +1,261 @@
+{
+  "IamFleetRole": "arn:aws:iam::780170686194:role/aws-ec2-spot-fleet-tagging-role",
+  "AllocationStrategy": "lowestPrice",
+  "TargetCapacity": 1,
+  "SpotPrice": "0.0611",
+  "ValidFrom": "2017-07-31T01:52:07Z",
+  "ValidUntil": "2020-08-05T01:52:07Z",
+  "TerminateInstancesWithExpiration": false,
+  "LaunchSpecifications": [
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c3.large",
+      "SubnetId": "subnet-547b0a58, subnet-c2472aee, subnet-3ce71258, subnet-e84c46ae, subnet-9a193ed2, subnet-7f796d43",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 8,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        },
+        {
+          "DeviceName": "/dev/xvdba",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 160,
+            "SnapshotId": "snap-15c47a83"
+          }
+        }
+      ],
+      "SecurityGroups": [
+        {
+          "GroupId": "sg-112eaf68"
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c4.large",
+      "SubnetId": "subnet-547b0a58, subnet-c2472aee, subnet-3ce71258, subnet-e84c46ae, subnet-9a193ed2, subnet-7f796d43",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 8,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        },
+        {
+          "DeviceName": "/dev/xvdba",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 160,
+            "SnapshotId": "snap-15c47a83"
+          }
+        }
+      ],
+      "SecurityGroups": [
+        {
+          "GroupId": "sg-112eaf68"
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.large",
+      "SubnetId": "subnet-547b0a58, subnet-c2472aee, subnet-3ce71258, subnet-e84c46ae, subnet-9a193ed2, subnet-7f796d43",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 8,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        },
+        {
+          "DeviceName": "/dev/xvdba",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 160,
+            "SnapshotId": "snap-15c47a83"
+          }
+        }
+      ],
+      "SecurityGroups": [
+        {
+          "GroupId": "sg-112eaf68"
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.small",
+      "SubnetId": "subnet-547b0a58, subnet-c2472aee, subnet-3ce71258, subnet-e84c46ae, subnet-9a193ed2, subnet-7f796d43",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 8,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        },
+        {
+          "DeviceName": "/dev/xvdba",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 160,
+            "SnapshotId": "snap-15c47a83"
+          }
+        }
+      ],
+      "SecurityGroups": [
+        {
+          "GroupId": "sg-112eaf68"
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.medium",
+      "SubnetId": "subnet-547b0a58, subnet-c2472aee, subnet-3ce71258, subnet-e84c46ae, subnet-9a193ed2, subnet-7f796d43",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 8,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        },
+        {
+          "DeviceName": "/dev/xvdba",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 160,
+            "SnapshotId": "snap-15c47a83"
+          }
+        }
+      ],
+      "SecurityGroups": [
+        {
+          "GroupId": "sg-112eaf68"
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.medium",
+      "SubnetId": "subnet-547b0a58, subnet-c2472aee, subnet-3ce71258, subnet-e84c46ae, subnet-9a193ed2, subnet-7f796d43",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 8,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        },
+        {
+          "DeviceName": "/dev/xvdba",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 160,
+            "SnapshotId": "snap-15c47a83"
+          }
+        }
+      ],
+      "SecurityGroups": [
+        {
+          "GroupId": "sg-112eaf68"
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.large",
+      "SubnetId": "subnet-547b0a58, subnet-c2472aee, subnet-3ce71258, subnet-e84c46ae, subnet-9a193ed2, subnet-7f796d43",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 8,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        },
+        {
+          "DeviceName": "/dev/xvdba",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 160,
+            "SnapshotId": "snap-15c47a83"
+          }
+        }
+      ],
+      "SecurityGroups": [
+        {
+          "GroupId": "sg-112eaf68"
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c1.medium",
+      "SubnetId": "subnet-547b0a58, subnet-c2472aee, subnet-3ce71258, subnet-e84c46ae, subnet-9a193ed2, subnet-7f796d43",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 8,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        },
+        {
+          "DeviceName": "/dev/xvdba",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 160,
+            "SnapshotId": "snap-15c47a83"
+          }
+        }
+      ],
+      "SecurityGroups": [
+        {
+          "GroupId": "sg-112eaf68"
+        }
+      ]
+    }
+  ],
+  "Type": "maintain",
+  "ReplaceUnhealthyInstances": true
+}
