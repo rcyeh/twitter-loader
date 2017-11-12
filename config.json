@@ -1,0 +1,1309 @@
+{
+  "IamFleetRole": "arn:aws:iam::780170686194:role/aws-ec2-spot-fleet-tagging-role",
+  "AllocationStrategy": "lowestPrice",
+  "TargetCapacity": 1,
+  "SpotPrice": "0.0611",
+  "ValidFrom": "2017-07-31T04:50:52Z",
+  "ValidUntil": "2018-07-31T04:50:52Z",
+  "TerminateInstancesWithExpiration": false,
+  "LaunchSpecifications": [
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.small",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-7f796d43",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.small",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-9a193ed2",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.small",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-4e85e014",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.small",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-3ce71258",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.small",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-c2472aee",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.small",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-547b0a58",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-7f796d43",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-9a193ed2",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-4e85e014",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-3ce71258",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-c2472aee",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-547b0a58",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-7f796d43",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-9a193ed2",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-4e85e014",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-3ce71258",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-c2472aee",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-547b0a58",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-7f796d43",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-9a193ed2",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-4e85e014",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-3ce71258",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-c2472aee",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-547b0a58",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m2.xlarge",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-7f796d43",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m2.xlarge",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-9a193ed2",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m2.xlarge",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-4e85e014",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m2.xlarge",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-3ce71258",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m2.xlarge",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-c2472aee",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m2.xlarge",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-547b0a58",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-7f796d43",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-9a193ed2",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-4e85e014",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-3ce71258",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-c2472aee",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m1.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-547b0a58",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-7f796d43",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-9a193ed2",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-4e85e014",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-3ce71258",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-c2472aee",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "c1.medium",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-547b0a58",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-7f796d43",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-9a193ed2",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-4e85e014",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-3ce71258",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-c2472aee",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    },
+    {
+      "ImageId": "ami-668f1e70",
+      "InstanceType": "m3.large",
+      "KeyName": "rcy_amazon_ec2_kp",
+      "BlockDeviceMappings": [
+        {
+          "DeviceName": "/dev/sda1",
+          "Ebs": {
+            "DeleteOnTermination": true,
+            "VolumeType": "standard",
+            "VolumeSize": 16,
+            "SnapshotId": "snap-05b34972f11b73166"
+          }
+        }
+      ],
+      "NetworkInterfaces": [
+        {
+          "DeviceIndex": 0,
+          "SubnetId": "subnet-547b0a58",
+          "DeleteOnTermination": true,
+          "Groups": [
+            "sg-64122b1c"
+          ],
+          "AssociatePublicIpAddress": true
+        }
+      ]
+    }
+  ],
+  "Type": "maintain",
+  "ReplaceUnhealthyInstances": true
+}
