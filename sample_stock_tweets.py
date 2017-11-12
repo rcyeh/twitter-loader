@@ -51,8 +51,8 @@ def main(arglist):
                     print(str(datetime.now()) + " msgs " + str(i) +
                             " tweets " + str(j) +
                             " matches " + str(k) +
-                            " ratio " + str(1e-6 * int(1e6 * float(k)/j)) +
-                            " poisson error " + str(1e-6 * int(1e6 * float(k)**0.5/j)), file=sys.stderr)
+                            " ratio " + str(1e-6 * int(1e6 * float(k)/(1+j))) +
+                            " poisson error " + str(1e-6 * int(1e6 * float(k)**0.5/(1+j))), file=sys.stderr)
                     if divisor < 10000:
                         divisor *= 10
                     else:
